@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
+</head>
+<body>
+    <header><h1>Checkout</h1></header>
+  <div class="checkout">
+      <div class="form">
+        
+        <h3>Contact information</h3>
+        <div class="mail">
+            <p>Email</p>
+            <div class="input__border">
+                <input type="email" name="email" placeholder="Enter Your Email...">
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+
+        <div class="phone">
+            <p>Phone</p>
+            <div class="input__border">
+                <input type="number" name="phone number"placeholder="Enter Your Phone...">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+        </div>
+
+        <h3>Shipping address</h3>
+        <div class="name">
+            <p>Full name</p>
+            <div class="input__border">
+                <input type="text" name="full name" placeholder="Enter your Full name...">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+
+        <div class="address">
+            <p>Address</p>
+            <div class="input__border">
+                <input type="text" name="address"placeholder="Enter Your Address...">
+                <i class="fas fa-home"></i>
+            </div>
+        </div>
+
+        <div class="city">
+            <p>City</p>
+            <div class="input__border">
+                <input type="text" name="city" placeholder="Enter Your City...">
+                <i class="fas fa-city"></i>
+            </div>
+        </div>
+
+        <div class="country__post">
+            <div>
+                <p>Country</p>
+                <div class="country">
+                <select name="" id="select__border">
+                    <option value="Turkey">Turkey</option>
+                    <option value="Germany">Germany</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                </select>
+                <i class="fas fa-globe-europe"></i>
+              </div>
+            </div>
+
+            <div>
+                <p id="postcodep">Post Code</p>
+                <div class="postcode">
+                <input type="text" name="postcode" id="pcode" placeholder="Enter Your postal code...">
+                <i class="fas fa-mail-bulk"></i>
+              </div>
+            </div>
+        </div>
+
+        <div class="check">
+            <input type="checkbox" name="check" id="see"><span>See this information next time</span>
+        </div>
+
+        <div class="submit">
+            <button type="submit">Continue</button>
+       </div>
+
+    </div>
+    <div id="payment">
+
+        <div id="vintage">
+            <div id="image_bag_1">
+                <img src="./image/photo1.png" alt="bag1" id="bag1">
+            </div>
+
+            <div id="vintage_text">
+                <p id="vintage_back">Vintage Backbag</p>
+                <div><span class="price">$54.99</span> <del id="delfont"> $94.99 </del></div>
+                <div class="qty-box">
+                    <button>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <p>1</p>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="levi">
+            <div id="image_bag_2">
+                <img src="./image/photo2.png" alt="bag2" id="bag2">
+            </div>
+            <div id="levi_text">
+                <p id="levi_bag">Levi Shoes</p>
+                <div><span class="price">$74.99</span> <del id="delfont">$124.99</del></div>
+                <div class="qty-box">
+                    <button>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <p>1</p>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id=total>
+            <hr>
+            <span>Shipping </span> <span class="last_price">$19</span>
+            <hr>
+            <span>Total</span> <span class="last_price">$148.98</span>
+        </div>
+
+    </div>
+</div>
+
+
+
+  </div>  
+</body>
+</html>
+
+

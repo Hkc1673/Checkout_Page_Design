@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    text-align: center;
+}
+
+.checkout {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.form {
+    color: #828282;
+}
+.form input {
+    width: 400px;
+    height: 30px;
+    padding-left: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+  
+}
+
+.form h3 {
+    color: black;
+}
+
+.input__border {
+    position: relative;
+   
+    
+}
+
+.input__border i {
+    position: absolute;
+        color: #828282;
+        font-size: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 3%;
+}
+
+
+
+
+#select__border {
+    margin-top: 5px;
+    border: none;
+
+}
+.country {
+    position: relative;
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 40px;
+
+
+}
+.country i {
+    position: absolute;
+        color: #828282;
+        font-size: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 8%;
+}
+
+.country__post {
+    display:inline-flex
+
+}
+
+.postcode {
+    position: relative;
+}
+#postcodep {
+    padding-left: 20px;
+}
+.postcode i {
+    position: absolute;
+    color: #828282;
+    font-size: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8%;
+}
+
+#pcode {
+    width: 230px;
+    margin-left: 20px;
+}
+
+.check {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.check span {
+    margin-top: 6px;
+    padding-left: 20px;
+}
+
+#see {
+    width: 12px;
+    margin: 0;
+}
+
+
+.submit button {
+    float: right;
+    width: 75px;
+    height: 40px;
+    color: white;
+    background-color: rgb(242,153,74);
+    border: none;
+    border-radius: 10px;
+}
+
+#payment {
+    display: flex;
+    background-color: #eeeeee;
+    min-width: 30%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#vintage {
+    display: flex;
+    width: 100%;
+}
+
+#levi {
+    display: flex;
+
+}
+
+#image_bag_1 {
+    width: 30%;
+    padding-left: 5%;
+    margin-top: 30px;
+}
+
+#image_bag_2 {
+    width: 30%;
+    padding-left: 5%;
+    margin-top: 30px;
+}
+
+#bag1 {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#bag2 {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#vintage_text {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 6%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#levi_text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.price {
+    color: #f2994f;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#vintage_back {
+    font-size: 20px;
+    color: #4E5150;
+    font-weight: bold;
+}
+
+#levi_bag {
+    font-size: 20px;
+    color: #4E5150;
+    font-weight: bold;
+}
+
+#delfont {
+    font-size: small;
+    opacity: 0.5;
+}
+
+.qty-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 125px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #828282;
+    align-items: center;
+    justify-content: space-around;
+}
+.qty-box p {
+    margin: 0;
+}
+#total {
+    margin-top: 60px;
+    width: 80%;
+    padding-left: 5%;
+    font-size: 18px;
+}
+
+.last_price {
+    margin-left: 63%;
+}
+
+@media only screen and (max-width: 768px){
+
+    .checkout {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .form input {
+        width: 300px;      
+    }
+
+    #pcode {
+        width: 150px;
+
+    }
+
+    .postcode i {
+       
+        left: 13%;
+    }
+
+    #payment {
+        width: 400px;
+    }
+}
+
+    
